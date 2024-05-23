@@ -1,0 +1,161 @@
+hr{
+    margin-top: -1%;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    z-index: -1;
+}
+
+.banner span{
+    font-size: 150% !important;
+}
+
+.banner h1{
+    margin-left: 14%;
+}
+
+.textvideo{
+    margin-top: 20vw;
+    color: white;
+    text-shadow: 2px 2px black;
+    position: relative;
+    z-index: 1;
+}
+
+footer{
+    margin-top: 25%;
+    padding: 2%;
+}
+
+footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+footer{
+    padding: 10%;
+    background-color: #3a3a3a;
+}
+
+footer h6{
+    margin-top: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff
+}
+
+a{
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.titlevest{
+    font-size: 200%;
+    margin: 3%;
+}
+
+.conteudo{
+	margin-bottom: -18%;
+}
+
+.conteudo p{
+    margin: 3%;
+}
+
+.conteudo a{
+    color: #000 !important;
+}
+
+.conteudo a:hover{
+    color: blue !important;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+
+details{
+	margin: 3%;
+}
+
+.p_cursos{
+	font-size: 150%;
+	margin-top: 6.5%!important;
+	margin-bottom: 6.5%!important;
+}
+
+summary img{
+	margin: 2%;
+}
+
+.cont_galeria{
+	display: flex;
+	margin-top: 6%;
+	margin-bottom: -20%
+}
+
+.galeria{
+	justify-content: space-around;
+    margin-bottom: 10%;
+}
+
+.texto2{
+	padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+	background-color: #b20000;
+	color: #fff;
+	border-radius: 40px;
+	width: 80%;
+	backdrop-filter: blur(30px);
+        margin-top: 5%;
+    margin-left: 0;
+}
+
+.texto2 h1{
+    margin-left: 0!important;
+}
+
+
+@media screen and (max-width: 500px) {
+    .banner video{
+        margin-top: 7%;
+        width: 180%;
+    }
+
+    .banner span{
+        font-size: 78% !important;
+        margin-left: -3.5%;
+    }
+    
+    .banner h1{
+        margin-left: 0%;
+    }
+
+    footer img{
+        width: 8%;
+    }
+	
+	.vestibulinho{
+		width: 200%;
+		margin-left: -50%;
+	}
+}
